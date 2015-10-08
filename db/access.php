@@ -16,10 +16,10 @@
   // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
   /**
-   * CourseEval Online Course Evaluation plugin
+   * APPsearch block plugin
    *
-   * @package    block_course_evals
-   * @author     Michelle Melton, Fred Woolard (modified code from Scott Krajewski, Augsburg College)
+   * @package    block_app_search
+   * @author     Michelle Melton 
    * @copyright  2015 Appalachian State University
    * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
    */

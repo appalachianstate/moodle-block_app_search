@@ -16,7 +16,7 @@
   // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
   /**
-   * AppSearch block plugin
+   * APPsearch block plugin
    *
    * @package    block_app_search
    * @author     Michelle Melton 
@@ -24,11 +24,11 @@
    * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
    */
 
-  $string['pluginname'] = 'AppSearch';
+  $string['pluginname'] = 'APPsearch';
   
-  $string['app_search'] = 'AppSearch';
-  $string['app_search:addinstance'] = 'Add a new AppSearch block';
-  $string['app_search:myaddinstance'] = 'Add a new AppSearch block to the My Moodle page';
-  $string['app_search_settings'] = 'AppSearch settings';
-  $string['app_search_hrml'] = 'HTML';
-  $string['app_search_html_desc'] = 'Enter the HTML for the AppSearch block.';
+  $string['app_search'] = 'APPsearch';
+  $string['app_search:addinstance'] = 'Add a new APPsearch block';
+  $string['app_search:myaddinstance'] = 'Add a new APPsearch block to the My Moodle page';
+  $string['app_search_settings'] = 'APPsearch settings';
+  $string['app_search_html'] = 'HTML';
+  $string['app_search_html_desc'] = 'Enter the HTML for the APPsearch block.';

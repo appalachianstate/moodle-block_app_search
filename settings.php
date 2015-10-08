@@ -16,10 +16,10 @@
   // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
   /**
-   * CourseEval Online Course Evaluation plugin
+   * APPsearch block plugin
    *
-   * @package    block_course_evals
-   * @author     Michelle Melton, Fred Woolard (modified code from Scott Krajewski, Augsburg College)
+   * @package    block_app_search
+   * @author     Michelle Melton 
    * @copyright  2015 Appalachian State University
    * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
    */
@@ -28,6 +28,5 @@
 
   if ($ADMIN->fulltree) {
   
-    $settings->add(new admin_setting_configtext('block_app_search_html', get_string('app_search_html', 'block_app_search'), get_string('app_search_html_desc', 'block_app_search'), '', PARAM_TEXT));
-    
+    $settings->add(new admin_setting_configtextarea('block_app_search_html', get_string('app_search_html', 'block_app_search'), get_string('app_search_html_desc', 'block_app_search'), '', PARAM_RAW));
   }
