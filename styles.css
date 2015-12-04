@@ -1,7 +1,3 @@
-.block_app_search .header .title h2:before {
-    content: "\f002" !important;
-}
-
 .block_app_search img {
 	max-width: 100%;
 	height: auto;
