@@ -43,7 +43,18 @@
           $this->content = new stdClass;
           $this->content->footer = '';
           
-          $html = '';
+          $html = '<form method="get" action="http://0-search.ebscohost.com.wncln.wncln.org/login.aspx" id="appsearch-form-1">
+                   <input name="direct" value="true" type="hidden" /> 
+                   <input name="site" value="eds-live" type="hidden" /> 
+                   <input name="scope" value="site" type="hidden" /> 
+                   <input name="group" value="main" type="hidden" /> 
+                   <input name="profile" value="eds" type="hidden" /> 
+                   <input name="authtype" value="cookie,ip,uid" type="hidden" /> 
+                   <input title="Search for books, journal articles, media, etc." name="bQuery" class="form-text" type="text" placeholder="Search for books, journal articles, media, etc." size="20" /> 
+                   <input type="submit" value="Search" />
+                   </form>
+                   <p><img src="/blocks/app_search/pix/app-search.png" alt="APPsearch logo" width="200" height="38" /></p>
+                   <p><a href="http://library.appstate.edu/appsearch">What is APPsearch?</a></p>';
           if (!empty($CFG->block_app_search_html)) {
             $html= $CFG->block_app_search_html;
           }

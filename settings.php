@@ -28,5 +28,5 @@
 
   if ($ADMIN->fulltree) {
   
-    $settings->add(new admin_setting_configtextarea('block_app_search_html', get_string('app_search_html', 'block_app_search'), get_string('app_search_html_desc', 'block_app_search'), '', PARAM_RAW));
+    $settings->add(new admin_setting_configtextarea('block_app_search_html', get_string('app_search_html', 'block_app_search'), get_string('app_search_html_desc', 'block_app_search'), get_string('app_search_html_default', 'block_app_search'), PARAM_RAW));
   }
