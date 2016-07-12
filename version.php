@@ -24,5 +24,5 @@
  */
 
 $plugin->component = 'block_app_search';
-$plugin->version = 2015100802;
+$plugin->version = 2015100803;
 $plugin->requires = 2010112400;

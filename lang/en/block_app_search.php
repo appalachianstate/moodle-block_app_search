@@ -31,7 +31,7 @@ $string['app_search:myaddinstance'] = 'Add a new APPsearch block to the My Moodl
 $string['app_search_settings'] = 'APPsearch settings';
 $string['app_search_html'] = 'HTML';
 $string['app_search_html_desc'] = 'Enter the HTML for the APPsearch block.';
-$string['app_search_html_default'] = '<form method="get" action="http://0-search.ebscohost.com.wncln.wncln.org/login.aspx" id="appsearch-form-1">
+$string['app_search_html_default'] = '<form method="get" action="http://0-search.ebscohost.com.wncln.wncln.org/login.aspx" id="appsearch-form-1" target="_blank">
                                         <input name="direct" value="true" type="hidden" />
                                         <input name="site" value="eds-live" type="hidden" />
                                         <input name="scope" value="site" type="hidden" />
@@ -42,4 +42,4 @@ $string['app_search_html_default'] = '<form method="get" action="http://0-search
                                         <input type="submit" value="Search" />
                                         </form>
                                         <p><img src="/blocks/app_search/pix/app-search.png" alt="APPsearch logo" width="200" height="38" /></p>
-                                        <p><a href="http://library.appstate.edu/appsearch">What is APPsearch?</a></p>';
+                                        <p><a href="http://library.appstate.edu/appsearch" target="_blank">What is APPsearch?</a></p>';
